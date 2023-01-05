@@ -5,6 +5,7 @@ import Banner from './Banner'
 import Details from './Details';
 import { Box, styled } from '@mui/material';
 import Blog from './Blog';
+import Footer from '../Footer/Footer';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
     </Component>
     <Details/>
     <Blog/>
+    
     </>
   )
 }
