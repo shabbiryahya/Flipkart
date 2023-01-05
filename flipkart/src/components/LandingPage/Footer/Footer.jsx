@@ -73,6 +73,14 @@ return (
 			</i>
 			</FooterLink>
 		</Column>
+        <Column>
+			<Heading>Mail Us</Heading>
+			<FooterLink href="#">Flipkart Internet Private Limited,</FooterLink>
+			<FooterLink href="#">Buildings Alyssa, Begonia &</FooterLink>
+			<FooterLink href="#">Clove Embassy Tech Village,</FooterLink>
+			<FooterLink href="#">Bengaluru, 560103</FooterLink>
+            <FooterLink href="#">Karnataka, India</FooterLink>
+		</Column>
 		</Row>
 	</Container>
 	</Box>
