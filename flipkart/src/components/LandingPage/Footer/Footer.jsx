@@ -16,17 +16,22 @@ return (
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<Heading>About</Heading>
+			<FooterLink href="#">About Us</FooterLink>
+			<FooterLink href="#">Contact Us</FooterLink>
+			<FooterLink href="#">Career</FooterLink>
+            <FooterLink href="#">Flipkart Stories</FooterLink>
+            <FooterLink href="#">Press</FooterLink>
+            <FooterLink href="#">Flipkart wholeSale</FooterLink>
+            <FooterLink href="#">Corporate</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<Heading>HELP</Heading>
+			<FooterLink href="#">Payments</FooterLink>
+			<FooterLink href="#">Shipping</FooterLink>
+			<FooterLink href="#">Cancellation</FooterLink>
+			<FooterLink href="#">Return</FooterLink>
+            <FooterLink href="#">FAQ</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>

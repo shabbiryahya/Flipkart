@@ -16,7 +16,7 @@ width: 100%;
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	max-width: 1000px;
 	margin: 0 auto;
 	/* background: red; */
@@ -26,7 +26,7 @@ export const Column = styled.div`
 display: flex;
 flex-direction: column;
 text-align: left;
-margin-left: 60px;
+
 `;
 
 export const Row = styled.div`
