@@ -32,13 +32,15 @@ return (
 			<FooterLink href="#">Cancellation</FooterLink>
 			<FooterLink href="#">Return</FooterLink>
             <FooterLink href="#">FAQ</FooterLink>
+            <FooterLink href="#">Report Infridgement</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<Heading>POLICY</Heading>
+			<FooterLink href="#">Return Policy</FooterLink>
+			<FooterLink href="#">Terms Of Use</FooterLink>
+			<FooterLink href="#">Security</FooterLink>
+			<FooterLink href="#">Privacy</FooterLink>
+            <FooterLink href="#">Site Map</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
