@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { Box } from '@mui/material'
-import Header from './components/LandingPage/Header/Header';
-import Home from './components/LandingPage/Home/Home'
+import Header from './Components/LandingPage/Header/Header';
+import Home from './Components/LandingPage/Home/Home'
 function App() {
   return (
     <>
