@@ -2,15 +2,23 @@
 import React from 'react'
 import NarBar from './NarBar'
 import Banner from './Banner'
+
+import { Box, styled } from '@mui/material';
 const Home = () => {
   return (
     <>
     <NarBar/>
-    <Banner/>
+    <Component>
+       <Banner/>
+    </Component>
+   
     </>
   )
 }
-
+const Component = styled(Box)`
+    padding: 20px 10px;
+    background: #F2F2F2;
+`;
 export default Home
 
 
