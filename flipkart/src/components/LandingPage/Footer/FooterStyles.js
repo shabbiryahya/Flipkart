@@ -43,19 +43,20 @@ grid-gap: 20px;
 
 export const FooterLink = styled.a`
 color: #fff;
-margin-bottom: 20px;
-font-size: 18px;
+margin-bottom: 5px;
+font-size: 12px;
 text-decoration: none;
+// margin-top:-15px;
 
 &:hover {
-	color: green;
+	color: blue;
 	transition: 200ms ease-in;
 }
 `;
 
 export const Heading = styled.p`
-font-size: 24px;
-color: #fff;
-margin-bottom: 40px;
+font-size: 15px;
+color: #878787;
+margin-bottom: 20px;
 font-weight: bold;
 `;
