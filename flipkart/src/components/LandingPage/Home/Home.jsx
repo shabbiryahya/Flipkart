@@ -2,7 +2,7 @@
 import React from 'react'
 import NarBar from './NarBar'
 import Banner from './Banner'
-
+import Details from './Details';
 import { Box, styled } from '@mui/material';
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
     <NarBar/>
     <Component>
        <Banner/>
+       <Details/>
     </Component>
    
     </>
