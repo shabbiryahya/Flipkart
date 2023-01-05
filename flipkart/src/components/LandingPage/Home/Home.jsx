@@ -4,15 +4,17 @@ import NarBar from './NarBar'
 import Banner from './Banner'
 import Details from './Details';
 import { Box, styled } from '@mui/material';
+import Blog from './Blog';
 const Home = () => {
   return (
     <>
     <NarBar/>
     <Component>
        <Banner/>
-       <Details/>
+       
     </Component>
-   
+    <Details/>
+    <Blog/>
     </>
   )
 }
