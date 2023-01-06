@@ -20,7 +20,9 @@ const NarBar = () => {
 
 const Component = styled(Box)(({ theme }) => ({
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    gap:25,
     margin: '55px 130px 0 130px !important',
     overflowX: 'overlay',
     [theme.breakpoints.down('lg')]: {

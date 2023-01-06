@@ -1,4 +1,4 @@
-
+import { useState } from 'react';
 import {
   AppBar,
   Toolbar,
@@ -20,10 +20,38 @@ const Header = () => {
   const subURL =
     "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png";
 
+    const [open, setOpen] = useState(false);
+
+    const handleClose = () => {
+        setOpen(false);
+    }
+
+    const handleOpen = () => {
+        setOpen(true);
+    }
+
+    const list = () => (
+        <Box style={{ width: 250 }} onClick={handleClose}>
+            <List>
+                <listItem button>
+                    <CustomButtons />
+                </listItem>
+            </List>
+        </Box>
+    );
 
   return (
     <StyledHeader position="fixed">
       <Toolbar style={{ minHeight: 55 }}>
+      <MenuButton
+                    color="inherit"
+                    onClick={handleOpen}
+                >
+                    <Menu />
+                </MenuButton>
+                <Drawer open={open} onClose={handleClose}>
+                    {list()}
+                </Drawer>
         <Component>
           <img src={logoURL} style={{ width: 75 }} />
           <Box component="span" style={{ display: "flex" }}>
@@ -70,7 +98,20 @@ const PlusImage = styled('img')({
     marginLeft: 4
 })
 
-const CustomButtonWrapper = styled('span')`
-    margin: 0 5% 0 auto;
-`
+// const CustomButtonWrapper = styled('span')`
+//     margin: 0 5% 0 auto;
+// `
+const MenuButton = styled(IconButton)(({ theme }) => ({
+  display: 'none',
+  [theme.breakpoints.down('sm')]: {
+      display: 'block'
+  }
+}));
+
+const CustomButtonWrapper = styled('span')(({ theme }) => ({ 
+  margin: '0 5% 0 auto', 
+  [theme.breakpoints.down('sm')]: {
+      display: 'none'
+  }
+}));
 export default Header;

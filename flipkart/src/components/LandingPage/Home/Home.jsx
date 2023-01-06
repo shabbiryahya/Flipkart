@@ -1,22 +1,33 @@
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import NarBar from './NarBar'
 import Banner from './Banner'
 import Details from './Details';
 import { Box, styled } from '@mui/material';
 import Blog from './Blog';
 import Footer from '../Footer/Footer';
+import Profile from '../Header/Profile';
+import MidSection from './MidSection';
+import MidSlide from './MidSlide';
 const Home = () => {
+var products;
+  useEffect(()=>{
+   const getData=async()=>{
+    let url= await fetch("https://flipkart-data.onrender.com/top_offers")
+     products = await url.json();
+   }
+   getData();
+  })
   return (
     <>
     <NarBar/>
+    
     <Component>
-       <Banner/>
-       
+       <Banner/> 
+      <MidSection/>
     </Component>
     <Details/>
     <Blog/>
-    
     </>
   )
 }
