@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import AllRoutes from './Components/AllRoutes/AllRoutes';
 import Header from "./Components/LandingPage/Header/Header";
 import Footer from './Components/LandingPage/Footer/Footer';
