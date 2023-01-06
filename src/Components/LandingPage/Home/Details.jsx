@@ -345,7 +345,7 @@ let furniture ={
     ]
   }
   return (
-   <Box style={{paddingTop:40,paddingBottom:40,padding:20}}>
+   <Box style={{paddingTop:40,paddingBottom:40,padding:20,textAlign:'left'}}>
     <h4>Top Stories:Brand Directory</h4>
     <DetailFetch props={Top_search}/>
     <DetailFetch props={mobile}/>

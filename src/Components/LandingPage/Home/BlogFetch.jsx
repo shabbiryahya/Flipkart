@@ -6,7 +6,7 @@ const BlogFetch = ({props}) => {
     console.log(props);
     const {name, desc}=props;
   return (
-   <Box style={{paddingLeft:20,paddingRight:20}}>
+   <Box style={{paddingLeft:20,paddingRight:20,textAlign:'left'}}>
       <h4 style={{color:"#878787"}}>{name}</h4>
       <Typography style={{color:"#878785",marginTop:"-10px",fontSize:11}}>{desc}</Typography>
    </Box>

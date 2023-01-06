@@ -5,10 +5,9 @@ import Banner from './Banner'
 import Details from './Details';
 import { Box, styled } from '@mui/material';
 import Blog from './Blog';
-import Footer from '../Footer/Footer';
-import Profile from '../Header/Profile';
 import MidSection from './MidSection';
 import MidSlide from './MidSlide';
+import ProductSection from './ProductSection';
 const Home = () => {
 var products;
   useEffect(()=>{
@@ -24,7 +23,11 @@ var products;
     
     <Component>
        <Banner/> 
+       <MidSlide title={"Deals Of the Day"}/>
       <MidSection/>
+     <ProductSection title="Products"/>
+     <ProductSection title="Mobiles"/>
+     <MidSection/>
     </Component>
     <Details/>
     <Blog/>

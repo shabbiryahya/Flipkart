@@ -2,6 +2,7 @@
 import React from 'react'
 import { Typography, Box, styled } from '@mui/material'; 
 import { navData } from '../constants/data';
+import { NavLink } from 'react-router-dom';
 
 const NarBar = () => {
   return (
@@ -9,8 +10,10 @@ const NarBar = () => {
     {
         navData.map(temp => (
             <Container>
+                <NavLink to={`/products/${temp.text.toLowerCase()}`} style={{textDecoration:"none",color:'black'}}>
                 <img src={temp.url} style={{  width: 64 }} alt="narimg"/>
                 <Text>{temp.text}</Text>
+                </NavLink>
             </Container>
         ))
     }
