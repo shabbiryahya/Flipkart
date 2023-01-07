@@ -7,7 +7,7 @@ import { Link,NavLink } from 'react-router-dom';
 const CustomButtons = () => {
   return (
     <Wrapper>
-        <LoginButton variant ="contained">Login</LoginButton>
+        <LoginButton variant ="contained"><NavLink to="/login" style={{textDecoration:"none",color:"black"}}>Login</NavLink></LoginButton>
         <Typography style={{marginTop:3,width:135}}>Become a Seller</Typography>
         <Typography style={{marginTop:3}}>More</Typography>
 
