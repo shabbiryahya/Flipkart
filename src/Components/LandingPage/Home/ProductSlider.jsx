@@ -101,7 +101,7 @@ const MultiSlide = ({ data,title}) => {
                 keyBoardControl={true}
                 showDots={false}
                 containerClass="carousel-container"
-                // removeArrowOnDeviceType={["tablet", "mobile"]}
+        
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
