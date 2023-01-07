@@ -1,13 +1,12 @@
 import React from 'react'
 import {Route, Routes} from 'react-router-dom'
-import Navbar from '../LandingPage/Navbar'
-import Login from '../Login/Login'
-
+import Login from "../Login/Login"
+import Home from "../LandingPage/Home/Home"
 export default function AllRoutes() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Navbar/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>
