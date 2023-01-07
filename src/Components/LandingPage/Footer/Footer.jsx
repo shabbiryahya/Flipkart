@@ -12,7 +12,6 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	
 	<Container>
 		<Row>
 		<Column>
