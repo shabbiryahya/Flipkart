@@ -32,7 +32,7 @@ export default function AllRoutes() {
     <div>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/login' element={<Login/>}/>
+      
       </Routes>
     </div>
   )
