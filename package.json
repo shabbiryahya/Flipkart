@@ -12,11 +12,12 @@
     "@mui/styles": "^5.7.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "react": "18.1.0",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.2.2",
+    "react": "18.2.0",
     "react-countdown": "^2.3.2",
     "react-dom": "^18.1.0",
+    "react-modal": "^3.16.1",
     "react-modules": "^1.0.8",
     "react-multi-carousel": "^2.8.0",
     "react-redux": "^8.0.1",
@@ -27,7 +28,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
     "styled-components": "^5.3.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
