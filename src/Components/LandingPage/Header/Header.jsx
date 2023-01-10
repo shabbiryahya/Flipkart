@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
+import { Alert, AlertTitle} from '@mui/material';
 import {
   AppBar,
   Toolbar,
@@ -11,10 +13,14 @@ import {
 } from "@mui/material";
 import { Menu } from "@mui/icons-material";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Search from "./Search";
 import CustomButtons from "./CustomButtons";
 const Header = () => {
+
+ 
+
+  const nav=useNavigate();
   const logoURL =
     "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png";
   const subURL =
@@ -41,6 +47,7 @@ const Header = () => {
     );
 
   return (
+    
     <StyledHeader position="fixed">
       <Toolbar style={{ minHeight: 55 }}>
       <MenuButton
@@ -52,8 +59,12 @@ const Header = () => {
                 <Drawer open={open} onClose={handleClose}>
                     {list()}
                 </Drawer>
-        <Component>
-          <img src={logoURL} style={{ width: 75 }} />
+        <Component  >
+          <img src={logoURL} style={{ width: 75,cursor:"pointer"}}  onClick={()=>{
+
+           
+            nav("/");
+          }} />
           <Box component="span" style={{ display: "flex" }}>
             <SubHeading>
               Explore&nbsp;
@@ -64,7 +75,7 @@ const Header = () => {
             <PlusImage src={subURL} />
           </Box>
         </Component>
-        <Search/>
+        <Search />
         <CustomButtonWrapper>
                     <CustomButtons />
         </CustomButtonWrapper>

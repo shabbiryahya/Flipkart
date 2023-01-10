@@ -1,0 +1,93 @@
+body{
+    background-color: #f1f3f6;
+}
+.maindiv{
+    display: flex;
+}
+#buttonsdiv{
+    margin-top: -10px;
+    display: flex;
+    background-color: white;
+    padding:30px;
+}
+#buttonsdiv div{
+    margin-left: 20px;
+}
+#subdiv button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 13px;
+    border-radius: 50%;
+    font-size: 14px;
+    border: 2px solid gray;
+    font-weight: 600;
+}
+#quantityinput input{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    padding: 8px;
+}
+#buttontextdiv button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 22px;
+    color: #212121;
+    margin-top: 5px;
+    
+}
+#placediv{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+
+}
+#placediv button{
+    padding: 16px 60px;
+    background-color: #fb641b;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin:25px 25px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+#leftside{
+    margin-left: 30px;
+}
+#rightside{
+    margin-left: 40px;
+    width: 400px;
+    height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 22px;
+    color: #212121;
+}
+#rightchilddiv{
+    padding:0px 30px;
+}
+#pricedetail{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 22px;
+    color: #878787;
+}
+#orignalpricediv{
+    display: flex;
+    justify-content: space-between;
+}

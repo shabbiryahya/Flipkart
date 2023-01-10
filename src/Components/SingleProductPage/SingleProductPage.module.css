@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family:  Roboto, Arial, sans-serif;
+}
+.maindiv{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+#leftdiv{
+    display: flex;
+    width: 37%;
+    height: 500px;
+    /* border: 1px solid yellowgreen; */
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    
+}
+#leftimgdiv{
+    width: 16%;
+}
+#leftimgdiv div{
+    width: 50%;
+    padding: 8px;
+    margin: auto;
+}
+#leftimgdiv img{
+    width: 100%;
+}
+
+#rightimgdiv{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    /* border: 1px solid green; */
+}
+#rightimgdiv img{
+    padding:0px 80px
+}
+#btndiv{
+    display:flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#cartdiv{
+    padding: 18px 5px;
+    width: 50%;
+    font-size: 16px;
+
+    font-weight: 600;
+    margin: 5px;
+    background-color: #ff9f00;
+    color: white;
+    border-style: none;
+    
+}
+#buydiv{
+    padding: 18px 5px;
+    width: 50%;
+    font-size: 16px;
+
+    font-weight: 600;
+    margin: 5px;
+    background-color: #fb641b;
+    color: white;
+    border-style: none;
+}
+
+#rightdiv{
+    display:flex;
+    /* justify-content: left; */
+    flex-direction: column;
+  
+    width: 63%;
+    /* border: 1px solid blue; */
+    padding: 7px 20px;
+
+}
+
+#titlediv{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #212121;
+    
+}
+#ratingmaindiv{
+    display: flex;
+    margin: -15px 0px;
+    
+}
+#ratingmaindiv div{
+    margin-right: 5px;
+}
+#ratingdiv{
+    display: flex;
+    align-items: center;
+    margin-top:8px;
+    width: 54px;
+    height: 29px;
+    border-radius: 6px;
+    background-color: green;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+}
+#ratingdiv p{
+    padding: 10px 10px;
+    
+    
+}
+#countratingdiv{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #878787;
+}
+#anddiv{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #878787;
+}
+#countreviews{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #878787;
+}
+#assureddiv{
+    display: flex;
+    align-items: center;
+}
+#assureddiv img{
+    width: 30%;
+}
+#extraratediv{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #388e3c;
+}
+#pricedetaildiv{
+    display: flex;
+    
+    margin: -30px 0px;
+  
+
+}
+#pricedetaildiv div{
+    margin-right: 8px;
+}
+#finalpricediv{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    color: #212121;
+}
+#discountdiv{
+    display:flex
+}
+
+#originalpricediv{
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    line-height: 22px;
+    color: #878787;
+}
+#percentoff{
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: green;
+}
+#alertdiv{
+    display: flex;
+    align-items:center;
+
+}
+#icondiv{
+    color: orange;
+}
+#offerdiv{
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #212121;
+
+}
+#offersdiv{
+    font-weight: bolder;
+}
+
+#bankofferonediv,#bankoffertwodiv,#bankofferthreediv,#bankofferfourdiv,#bankofferfivediv,#bankoffersixdiv,#bankoffersevendiv,#bankoffereightdiv{ 
+    display: flex;
+    align-items: center;
+    margin:-10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #212121;
+}
+
+#bankofferonediv img,#bankoffertwodiv img,#bankofferthreediv img,#bankofferfourdiv img,#bankofferfivediv img,#bankoffersixdiv img,#bankoffersevendiv img,#bankoffereightdiv img{
+    width: 60%;
+}
+#bankofferonediv a,#bankoffertwodiv a,#bankofferthreediv a,#bankofferfourdiv a,#bankofferfivediv a,#bankoffersixdiv a,#bankoffersevendiv a,#bankoffereightdiv a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color:  #2874f0;
+}
+#bankofferonediv div,#bankoffertwodiv div,#bankofferthreediv div,#bankofferfourdiv div,#bankofferfivediv div,#bankoffersixdiv div,#bankoffersevendiv div,#bankoffereightdiv div{
+    margin-right: 10px;
+}

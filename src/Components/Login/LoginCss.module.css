@@ -1,62 +1,65 @@
-.maincontainer{
+.maincontainer {
     display: flex;
     flex-direction: row;
-    margin: auto; 
-
-    width: 50%;
+    margin: 25px auto;
+    width: 40%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.loginHeading{
+.loginHeading {
     font-size: 28px;
     font-weight: 500;
 }
 
-.LoginPara{
+.LoginPara {
     font-size: 18px;
     margin-top: 16px;
     line-height: 150%;
     color: #dbdbdb;
 }
 
-#form{
+#form {
     padding: 20px;
 }
 
-.leftBackground{
+.leftBackground {
     width: 40%;
     background-color: #2874f0;
-    background-image: url(	https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
+    background-image: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
     background-position: center 85%;
     background-repeat: no-repeat;
     height: 500px;
 }
 
-.leftinner{
+.leftinner {
     color: #fff;
     padding: 40px 33px;
     font-size: 15px;
     padding: 20px;
 }
 
-.inputLabel{
+.inputLabel {
     font-size: 16px;
     writing-mode: horizontal-tb !important;
 }
-.inputBox{
+
+.inputBox {
     margin: 1px;
     padding: 10px;
 }
-.privacyPolicy{
+
+.privacyPolicy {
     color: #878787;
     font-size: 12px;
     font-weight: 400;
     margin-top: 30px;
 }
-.formdiv{
+
+.formdiv {
     width: 60%;
 }
-.requestOTPBtn{
+
+.requestOTPBtn {
     width: 100%;
     height: 48px;
     font-size: 15px;
@@ -67,19 +70,19 @@
     cursor: pointer;
 }
 
-.OTPDiv{
-  padding: 20px;
+.OTPDiv {
+    padding: 20px;
 }
-.OtpInputDiv{
+
+.OtpInputDiv {
     margin-bottom: 30px;
 }
 
-.OTPLabel{
+.OTPLabel {
     font-size: 16px;
     margin: 2px;
 }
 
-.toSignUp{
+.toSignUp {
     padding: 20px;
-   
 }
