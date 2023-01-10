@@ -1,5 +1,5 @@
 # Flipkart-Clone
-<h3><b>Tech Stack:</i></b>HTML,CSS, JavaScript,React,Redux,Chakra UI,Material UI-<a href="https://github.com/PrathmeshVK/Flipkart" target="_blank" style="text-decoration:none;">Github</a > | <a href="https://flipkart-clone-masai.netlify.app" target="_blank" style="text-decoration:none;" >Deployed</a></h3>
+<h3><b>Tech Stack:</i></b>HTML,CSS, JavaScript,React,Redux,Chakra UI,Material UI-<a href="https://github.com/shabbiryahya/Flipkart" target="_blank" style="text-decoration:none;">Github</a > | <a href="https://flipkart-clone-masai.netlify.app" target="_blank" style="text-decoration:none;" >Deployed</a></h3>
 <br>
 <h4><b>Contributor:</b> With the collaboration of five aspired developers The project was completed in a week.</h4>
 <li>Nitin Deswal </li>
