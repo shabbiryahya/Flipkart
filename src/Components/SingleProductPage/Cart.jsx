@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import cart from './Cart.module.css';
-import cartpage from './img/cartimg.jpeg';
+// import cartpage from './img/cartimg.jpeg';
 import { useNavigate } from 'react-router-dom';
 function Cart() {
   let navigate = useNavigate();
@@ -50,7 +50,7 @@ function Cart() {
         <div id={cart.leftside}>
           <div>
             {' '}
-            <img src={cartpage} alt="" />
+            <img src="https://i.ibb.co/PDsJ25t/cartimg.jpg" alt="cartimg" />
           </div>
           <div id={cart.buttonsdiv}>
             <div id={cart.subdiv}>

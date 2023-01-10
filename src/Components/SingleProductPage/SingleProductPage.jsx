@@ -1,12 +1,16 @@
 import spp from './SingleProductPage.module.css';
 import { Link, useNavigate } from 'react-router-dom';
-import addtocart from './img/product.png';
-import rating from './img/rating.png';
+// import addtocart from 'https://i.ibb.co/rdHZWd5/product.png';
+// import rating from 'https://i.ibb.co/SQzxVx5/rating.png';
 import { useEffect } from 'react';
 import ReactImageMagnify from 'react-image-magnify';
-import redsmall from './img/redsmall.jpeg';
-import redlarge from './img/redlarge.jpeg';
-
+// import redsmall from 'https://i.ibb.co/p2kQRSQ/redsmall.jpg';
+// import redlarge from 'https://i.ibb.co/cL4thbF/redlarge.jpg';
+// https://i.ibb.co/PDsJ25t/cartimg.jpg
+// https://i.ibb.co/rdHZWd5/product.png
+// https://i.ibb.co/SQzxVx5/rating.png
+// https://i.ibb.co/cL4thbF/redlarge.jpg
+// https://i.ibb.co/p2kQRSQ/redsmall.jpg
 //------------------Login Imports-----------------------------------------------------------
 
 import { useState } from 'react';
@@ -303,10 +307,10 @@ function SingleProductPage() {
                                     smallImage: {
                                         alt: 'Wristwatch by Ted Baker London',
                                         isFluidWidth: true,
-                                        src: redsmall,
+                                        src: "https://i.ibb.co/p2kQRSQ/redsmall.jpg",
                                     },
                                     largeImage: {
-                                        src: redlarge,
+                                        src: "https://i.ibb.co/cL4thbF/redlarge.jpg",
                                         width: 1200,
                                         height: 1800
                                     },
@@ -537,10 +541,10 @@ function SingleProductPage() {
             </div>
           </div>
           <div id={spp.buytogether}>
-            <img src={addtocart} alt="addtocart" />
+            <img src="https://i.ibb.co/rdHZWd5/product.png" alt="addtocart" />
           </div>
           <div>
-            <img src={rating} alt="rating img" />
+            <img src="https://i.ibb.co/SQzxVx5/rating.png" alt="rating img" />
           </div>
         </div>
       </div>
